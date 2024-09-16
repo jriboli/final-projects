@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ed3fa88d-fa42-4fa3-967e-62459ae70dd7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/controller/EnemiesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/controller/MatchesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/controller/PlayerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/controller/StratagemsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/controller/WeaponsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/entity/enemies/Enemy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/entity/matches/Kill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/entity/matches/Match.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/entity/matches/Stats.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/entity/players/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/entity/stratagems/Flag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/entity/stratagems/Stratagem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/entity/weapons/Weapon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/enums/enemies/Type.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/enums/matches/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/enums/matches/Objective.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/enums/player/Type.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/enums/weapons/Mode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/enums/weapons/Position.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/enums/weapons/Trait.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/enums/weapons/Type.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/error/GlobalControllerErroHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/model/PlayerData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/model/PlayerResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/model/enemies/EnemyData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/model/enemies/EnemyResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/model/enemies/EnemyStatusData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/model/matches/KillData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/model/matches/KillResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/model/matches/MatchData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/model/matches/MatchResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/model/matches/PlanetData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/model/matches/PlanetResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/model/matches/StatsData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/model/matches/StatsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/model/stratagems/FlagData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/model/stratagems/FlagResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/model/stratagems/StratagemData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/model/stratagems/StratagemResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/model/weapons/WeaponData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/model/weapons/WeaponResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/model/weapons/WeaponStatusData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/repository/EnemyRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/repository/FlagRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/repository/KillRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/repository/MatchRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/repository/PlayerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/repository/StatsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/repository/StratagemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/repository/WeaponRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/service/EnemyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/service/MatchService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/service/PlayerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/service/StratagemService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helldivers/service/WeaponService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/helldivers/JPAExampleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/helldivers/RestAssuredTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/PopulateApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/enums/Difficulty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/enums/EnemyType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/enums/Mode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/enums/PlayerType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/enums/Trait.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/factories/KillFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/factories/MatchFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/factories/PlayerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/models/HelldiverAPI/Enemy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/models/HelldiverAPI/EnemyResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/models/HelldiverAPI/KillData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/models/HelldiverAPI/KillResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/models/HelldiverAPI/MatchData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/models/HelldiverAPI/MatchResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/models/HelldiverAPI/Planet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/models/HelldiverAPI/PlanetResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/models/HelldiverAPI/PlayerData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/models/HelldiverAPI/PlayerResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/models/HelldiverAPI/StatData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/models/HelldiverAPI/StatResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/models/HelldiverAPI/Weapon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/models/HelldiverAPI/WeaponResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/models/Kill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/models/Match.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/models/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/models/RandomUserAPI/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/models/RandomUserAPI/Name.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/models/RandomUserAPI/RandomUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/models/RandomUserAPI/Results.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/models/WeaponFilters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/java/com/helldivers/populate/service/HelldiverWrapperService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-populateHelldivers/src/main/resources/dbQueries/playerStats" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2f0sidofx2j14KMW19KFoQui8ar" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Justin/Documents/GitHub/final-projects/HelldriversAPI",
+    "onboarding.tips.debug.path": "C:/Users/Justin/Documents/GitHub/projects-for-learning/Java/helldivers-project/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.helldivers.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Justin\Documents\GitHub\playground-projects\java\project-helldivers\src\main\resources" />
+      <recent name="C:\Users\Justin\Documents\GitHub\projects-for-learning\Java\helldivers-project\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Justin\Documents\GitHub\projects-for-learning\Java\helldivers-project\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.helldivers.Application" />
+      <module name="helldivers-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.helldivers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="populateApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.populateDB.populateApplication" />
+      <module name="helldivers-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.populateDB.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JPAExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="helldivers-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.helldivers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.helldivers" />
+      <option name="MAIN_CLASS_NAME" value="com.helldivers.JPAExampleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JPAExampleTest.addStratagem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="helldivers-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.helldivers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.helldivers" />
+      <option name="MAIN_CLASS_NAME" value="com.helldivers.JPAExampleTest" />
+      <option name="METHOD_NAME" value="addStratagem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="helldivers-project [test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.populateApplication" />
+        <item itemvalue="JUnit.JPAExampleTest" />
+        <item itemvalue="JUnit.JPAExampleTest.addStratagem" />
+        <item itemvalue="Maven.helldivers-project [test]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed3fa88d-fa42-4fa3-967e-62459ae70dd7" name="Changes" comment="" />
+      <created>1712949460454</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712949460454</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/helldivers/service/StratagemService.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/helldivers/model/stratagems/StratagemData.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/helldivers/service/WeaponService.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/helldivers/service/WeaponService.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/helldivers/controller/WeaponsController.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

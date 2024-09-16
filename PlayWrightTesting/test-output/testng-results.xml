@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-29T16:12:13 PDT" name="Default Suite" finished-at="2024-03-29T16:12:14 PDT" duration-ms="83">
+    <groups>
+      <group name="advanced">
+        <method signature="BeforeAfterChildTest.testThree()[pri:0, instance:org.example.testng.BeforeAfterChildTest@327b636c]" name="testThree" class="org.example.testng.BeforeAfterChildTest"/>
+      </group> <!-- advanced -->
+      <group name="basic">
+        <method signature="BeforeAfterChildTest.testTwo()[pri:0, instance:org.example.testng.BeforeAfterChildTest@327b636c]" name="testTwo" class="org.example.testng.BeforeAfterChildTest"/>
+        <method signature="BeforeAfterChildTest.testOne()[pri:2, instance:org.example.testng.BeforeAfterChildTest@327b636c]" name="testOne" class="org.example.testng.BeforeAfterChildTest"/>
+      </group> <!-- basic -->
+      <group name="misc">
+        <method signature="BeforeAfterChildTest.testFour()[pri:1, instance:org.example.testng.BeforeAfterChildTest@327b636c]" name="testFour" class="org.example.testng.BeforeAfterChildTest"/>
+      </group> <!-- misc -->
+    </groups>
+    <test started-at="2024-03-29T16:12:13 PDT" name="java-playwright-basics" finished-at="2024-03-29T16:12:14 PDT" duration-ms="83">
+      <class name="org.example.testng.BeforeAfterChildTest">
+        <test-method is-config="true" signature="bSuite()[pri:0, instance:org.example.testng.BeforeAfterChildTest@327b636c]" started-at="2024-03-29T16:12:13 PDT" name="bSuite" finished-at="2024-03-29T16:12:13 PDT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.testng.BeforeAfterChildTest@327b636c]" started-at="2024-03-29T16:12:13 PDT" name="setUp" finished-at="2024-03-29T16:12:13 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="bTest()[pri:0, instance:org.example.testng.BeforeAfterChildTest@327b636c]" started-at="2024-03-29T16:12:13 PDT" name="bTest" finished-at="2024-03-29T16:12:13 PDT" depends-on-methods="org.example.testng.BaseTest.setUp" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bTest -->
+        <test-method is-config="true" signature="bClass()[pri:0, instance:org.example.testng.BeforeAfterChildTest@327b636c]" started-at="2024-03-29T16:12:13 PDT" name="bClass" finished-at="2024-03-29T16:12:13 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bClass -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:org.example.testng.BeforeAfterChildTest@327b636c]" started-at="2024-03-29T16:12:13 PDT" name="bMethod" finished-at="2024-03-29T16:12:13 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method signature="testThree()[pri:0, instance:org.example.testng.BeforeAfterChildTest@327b636c]" started-at="2024-03-29T16:12:13 PDT" name="testThree" finished-at="2024-03-29T16:12:13 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThree -->
+        <test-method is-config="true" signature="aMethod()[pri:0, instance:org.example.testng.BeforeAfterChildTest@327b636c]" started-at="2024-03-29T16:12:13 PDT" name="aMethod" finished-at="2024-03-29T16:12:13 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aMethod -->
+        <test-method is-config="true" signature="bGroups()[pri:0, instance:org.example.testng.BeforeAfterChildTest@327b636c]" started-at="2024-03-29T16:12:13 PDT" name="bGroups" finished-at="2024-03-29T16:12:13 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bGroups -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:org.example.testng.BeforeAfterChildTest@327b636c]" started-at="2024-03-29T16:12:13 PDT" name="bMethod" finished-at="2024-03-29T16:12:13 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method signature="testTwo()[pri:0, instance:org.example.testng.BeforeAfterChildTest@327b636c]" started-at="2024-03-29T16:12:13 PDT" name="testTwo" finished-at="2024-03-29T16:12:13 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method is-config="true" signature="aMethod()[pri:0, instance:org.example.testng.BeforeAfterChildTest@327b636c]" started-at="2024-03-29T16:12:13 PDT" name="aMethod" finished-at="2024-03-29T16:12:14 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aMethod -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:org.example.testng.BeforeAfterChildTest@327b636c]" started-at="2024-03-29T16:12:14 PDT" name="bMethod" finished-at="2024-03-29T16:12:14 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method signature="testFour()[pri:1, instance:org.example.testng.BeforeAfterChildTest@327b636c]" started-at="2024-03-29T16:12:14 PDT" name="testFour" finished-at="2024-03-29T16:12:14 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFour -->
+        <test-method is-config="true" signature="aMethod()[pri:0, instance:org.example.testng.BeforeAfterChildTest@327b636c]" started-at="2024-03-29T16:12:14 PDT" name="aMethod" finished-at="2024-03-29T16:12:14 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aMethod -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:org.example.testng.BeforeAfterChildTest@327b636c]" started-at="2024-03-29T16:12:14 PDT" name="bMethod" finished-at="2024-03-29T16:12:14 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method signature="testOne()[pri:2, instance:org.example.testng.BeforeAfterChildTest@327b636c]" started-at="2024-03-29T16:12:14 PDT" name="testOne" finished-at="2024-03-29T16:12:14 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method is-config="true" signature="aMethod()[pri:0, instance:org.example.testng.BeforeAfterChildTest@327b636c]" started-at="2024-03-29T16:12:14 PDT" name="aMethod" finished-at="2024-03-29T16:12:14 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aMethod -->
+        <test-method is-config="true" signature="aGroups()[pri:0, instance:org.example.testng.BeforeAfterChildTest@327b636c]" started-at="2024-03-29T16:12:14 PDT" name="aGroups" finished-at="2024-03-29T16:12:14 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aGroups -->
+        <test-method is-config="true" signature="aClass()[pri:0, instance:org.example.testng.BeforeAfterChildTest@327b636c]" started-at="2024-03-29T16:12:14 PDT" name="aClass" finished-at="2024-03-29T16:12:14 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aClass -->
+        <test-method is-config="true" signature="aTest()[pri:0, instance:org.example.testng.BeforeAfterChildTest@327b636c]" started-at="2024-03-29T16:12:14 PDT" name="aTest" finished-at="2024-03-29T16:12:14 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.testng.BeforeAfterChildTest@327b636c]" started-at="2024-03-29T16:12:14 PDT" name="tearDown" finished-at="2024-03-29T16:12:14 PDT" depends-on-methods="org.example.testng.BeforeAfterChildTest.aTest" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="aSuite()[pri:0, instance:org.example.testng.BeforeAfterChildTest@327b636c]" started-at="2024-03-29T16:12:14 PDT" name="aSuite" finished-at="2024-03-29T16:12:14 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aSuite -->
+      </class> <!-- org.example.testng.BeforeAfterChildTest -->
+    </test> <!-- java-playwright-basics -->
+  </suite> <!-- Default Suite -->
+</testng-results>
