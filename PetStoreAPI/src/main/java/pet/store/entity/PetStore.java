@@ -50,5 +50,9 @@ public class PetStore {
 	// This MappedBy needed to match the ManyToMany in PetStore class - WHY ???
 	@ManyToMany(mappedBy = "petStores", cascade = CascadeType.ALL)
 	private Set<Customer> petStoreCustomers = new HashSet<>();
-	
+
+	@OneToMany
+	@JoinColumn(name = "pet_store_id")
+	// Foreign key in Pet table
+	private Set<Pet> pets;
 }
