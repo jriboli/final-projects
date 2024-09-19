@@ -12,5 +12,5 @@ public interface EmployeeDao extends JpaRepository<Employee, Long> {
 	// Method names follow a specific pattern. They typically start with findBy, readBy, queryBy, getBy, 
 	// or countBy, followed by the property names of the entity. For example, if you have a property named store 
 	// in your Employee entity, you can create a method named findByStore in the EmployeeRepository.
-	List<Employee> findByPetStorePetStoreId(Long petStoreId);
+	List<Employee> findByStoreStoreId(Long storeId);
 }

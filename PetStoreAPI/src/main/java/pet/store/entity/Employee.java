@@ -32,10 +32,10 @@ public class Employee {
 	// Is this JoinColumn annotation needed - ???
 	// -- Notes from BreakOut videos
 	// This helps JPA know how to look up PetStore
-	@JoinColumn(name = "pet_store_id", nullable = false)
+	@JoinColumn(name = "store_id", nullable = false)
 	// This name needed to match the "MappedBy" field in the PetStore class
 	// -- Notes from BreakOut videos:
 	// It does need to match. The field name 'petStore' needs to match the 'MappedBy'. 
-    private PetStore petStore;
+    private Store store;
 	
 }

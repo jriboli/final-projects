@@ -21,5 +21,5 @@ public class Inventory {
 
     @ManyToOne
     @JoinColumn(name = "pet_store_id", nullable = false)
-    private PetStore store;
+    private Store store;
 }

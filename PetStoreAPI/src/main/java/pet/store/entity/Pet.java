@@ -19,7 +19,7 @@ public class Pet {
     private PetTag[] tags;
     private PetStatus status;
 
-    @OneToMany
-    @JoinColumn(name = "pet_store_id", insertable = false, updatable = false)
-    private PetStore store;
+    @ManyToOne
+    @JoinColumn(name = "store_id", insertable = false, updatable = false)
+    private Store store;
 }

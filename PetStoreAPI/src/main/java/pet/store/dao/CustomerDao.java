@@ -10,7 +10,7 @@ public interface CustomerDao extends JpaRepository<Customer, Long> {
 
 	// Remember to adapt the code to fit your specific entity and field names
 	
-	List<Customer> findPetStoreCustomersByPetStores_PetStoreId(Long petStoreId);
+	List<Customer> findStoreCustomersByStores_StoreId(Long storeId);
 	// A lot to know about naming this method
 	// find<fieldName>By<Class>_<fieldName>
 	// The first <fieldName> is the name of the Customer parameter in the PetStore entity

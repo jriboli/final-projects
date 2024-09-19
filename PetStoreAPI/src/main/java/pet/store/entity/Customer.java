@@ -35,10 +35,10 @@ public class Customer {
 	// -- Notes from BreakOut videos:
 	// The joinColumns attribute must name the table column, NOT Java field name
 	// The inverseJoinColumns must name the table column in the "owned" table
-	@JoinTable(name = "pet_store_customers",
+	@JoinTable(name = "store_customers",
 			joinColumns = @JoinColumn(name = "customer_id"),
-			inverseJoinColumns = @JoinColumn(name = "pet_store_id"))
+			inverseJoinColumns = @JoinColumn(name = "store_id"))
 	// Again wonder if the Class Type here matters for the linking ???
-	private Set<PetStore> petStores = new HashSet<>();
+	private Set<Store> stores = new HashSet<>();
 
 }
