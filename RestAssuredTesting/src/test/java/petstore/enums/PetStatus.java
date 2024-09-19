@@ -3,5 +3,7 @@ package petstore.enums;
 public enum PetStatus {
     AVAILABLE,
     PENDING,
-    SOLD
+    SOLD,
+    IN_TRANSIT,
+    INVALID
 }
