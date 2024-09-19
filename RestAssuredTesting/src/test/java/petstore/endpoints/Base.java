@@ -1,4 +1,4 @@
-package petstore;
+package petstore.endpoints;
 
 import utils.JsonUtils;
 
