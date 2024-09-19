@@ -14,3 +14,6 @@ INSERT INTO customer (email, first_name, last_name) VALUES ('ironman@marvel.com'
 --INSERT INTO pet_store_customers (customer_id, pet_store_id) VALUES (1, 3)
 --INSERT INTO pet_store_customers (customer_id, pet_store_id) VALUES (2, 1)
 --INSERT INTO pet_store_customers (customer_id, pet_store_id) VALUES (3, 1)
+
+INSERT INTO pet (category, status, name, tags) VALUES (0, 0, "Max", null)
+INSERT INTO pet (category, status, name, tags) VALUES (1, 0, "Void", null)
